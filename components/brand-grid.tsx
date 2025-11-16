@@ -20,7 +20,7 @@ export default function BrandGrid({ selectedCategory }: { selectedCategory: stri
       { id: 1, name: "Honda", logo: "/honda-m.png" },
       { id: 2, name: "Bajaj", logo: "/bajaj.png" },
       { id: 3, name: "Hero", logo: "/hero.png" },
-      { id: 4, name: "TVS", logo: "/tvs.jpg" },
+      { id: 4, name: "TVS", logo: "/tvs.png" },
     ],
     Scooters: [
       { id: 1, name: "Hero", logo: "/logos/hero.png" },
@@ -28,7 +28,7 @@ export default function BrandGrid({ selectedCategory }: { selectedCategory: stri
     ],
     EVs: [
       { id: 1, name: "Tata", logo: "/logos/tata.png" },
-      { id: 2, name: "BYD", logo: "/byd.png" },
+      { id: 2, name: "BYD", logo: "/Byd.png" },
       { id: 3, name: "Ather", logo: "/ather.png" },
     ],
   }
