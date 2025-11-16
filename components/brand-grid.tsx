@@ -17,7 +17,7 @@ export default function BrandGrid({ selectedCategory }: { selectedCategory: stri
       { id: 6, name: "MG", logo: "/logos/mg.png" },
     ],
     Bikes: [
-      { id: 1, name: "Honda", logo: "/logos/honda-m.png" },
+      { id: 1, name: "Honda", logo: "/honda-m.png" },
       { id: 2, name: "Bajaj", logo: "/logos/bajaj.png" },
       { id: 3, name: "Hero", logo: "/logos/hero.png" },
       { id: 4, name: "TVS", logo: "/logos/tvs.jpg" },
