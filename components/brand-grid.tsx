@@ -23,7 +23,7 @@ export default function BrandGrid({ selectedCategory }: { selectedCategory: stri
       { id: 4, name: "TVS", logo: "/tvs.png" },
     ],
     Scooters: [
-      { id: 1, name: "Hero", logo: "/logos/hero.png" },
+      { id: 1, name: "Hero", logo: "/hero.png" },
       { id: 2, name: "Ather", logo: "/ather.png" },
     ],
     EVs: [
