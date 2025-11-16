@@ -14,7 +14,7 @@ const brandsByCategory: Record<string, Brand[]> = {
     { id: 1, name: "Maruti", logo: "/logos/marutisuzuki.png" },
     { id: 2, name: "Tata", logo: "/logos/tata.png" },
     { id: 3, name: "Kia", logo: "/logos/kia.png" },
-    { id: 4, name: "Hyundai", logo: "/logos/hyundai.png" },
+    { id: 4, name: "Hyundai", logo: "/logos/HYUNDAI.png" },
     { id: 5, name: "Honda", logo: "/logos/honda.png" },
     { id: 6, name: "MG", logo: "/logos/mg.png" },
   ],
@@ -173,3 +173,4 @@ export default function BrandsPage() {
     </div>
   )
 }
+
