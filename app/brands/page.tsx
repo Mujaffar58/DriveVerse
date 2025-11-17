@@ -122,7 +122,6 @@ export default function BrandsPage() {
         <div className="max-w-7xl mx-auto px-4 flex items-center gap-4">
           <Link href="/" className="flex items-center gap-2 text-secondary hover:text-primary transition-colors">
            <ArrowLeft className="w-5 h-5" />
-           Back
           </Link>
            <h1
               className="
@@ -173,5 +172,6 @@ export default function BrandsPage() {
     </div>
   )
 }
+
 
 
