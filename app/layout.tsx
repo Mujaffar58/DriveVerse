@@ -8,8 +8,13 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "DriveVerse - Explore Your Next Vehicle",
-  description: "Discover and compare cars, bikes, scooters, and EVs with DriveVerse. Find your perfect ride today.",
+  description:
+    "Discover and compare cars, bikes, scooters, and EVs with DriveVerse. Find your perfect ride today.",
   generator: "v0.app",
+  themeColor: "#05070D",
+  other: {
+    "apple-mobile-web-app-status-bar-style": "black-translucent",
+  },
 }
 
 export default function RootLayout({
@@ -19,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`font-sans antialiased bg-background text-foreground`}>{children}</body>
+      <body className={`font-sans antialiased bg-background text-foreground`}>
+        {children}
+      </body>
     </html>
   )
 }
