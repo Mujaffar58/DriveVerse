@@ -22,27 +22,17 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Header */}
-     <header
-  className="
-    sticky top-0 z-50
-    bg-[#05070D]/95 backdrop-blur-lg border-b border-white/10
-    pt-[env(safe-area-inset-top)]
-    sm:pt-4
-    lg:pt-6
-    pb-3
-  "
->
-  <div className="max-w-7xl mx-auto px-4">
-    <div className="flex items-center justify-between mb-3">
-      <h1 className="text-3xl font-bold gradient-text">DriveVerse</h1>
-      <div className="text-sm text-muted-foreground flex items-center gap-1">
-        <CitySelector />
-      </div>
-    </div>
-    <SearchBar />
-  </div>
-</header>
-
+      <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-lg border-b border-white/10 py-4">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex items-center justify-between mb-4">
+            <h1 className="text-3xl font-bold gradient-text">DriveVerse</h1>
+            <div className="text-sm text-muted-foreground flex items-center gap-1">
+              <CitySelector />
+            </div>
+          </div>
+          <SearchBar />
+        </div>
+      </header>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* New Launches Carousel */}
