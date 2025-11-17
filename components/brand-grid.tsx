@@ -7,31 +7,33 @@ import React from "react"
 export default function BrandGrid({ selectedCategory }: { selectedCategory: string }) {
   const router = useRouter()
 
+
   const brandsByCategory: Record<string, Array<{ id: number; name: string; logo: string }>> = {
     Cars: [
       { id: 1, name: "Maruti", logo: "/logos/marutisuzuki.png" },
       { id: 2, name: "Tata", logo: "/logos/tata.png" },
       { id: 3, name: "Kia", logo: "/logos/kia.png" },
-      { id: 4, name: "Hyundai", logo: "/logos/HYUNDAI.png" },
+      { id: 4, name: "Hyundai", logo: "/logos/hyundai.png" },
       { id: 5, name: "Honda", logo: "/logos/honda.png" },
       { id: 6, name: "MG", logo: "/logos/mg.png" },
     ],
     Bikes: [
-      { id: 1, name: "Honda", logo: "/honda-m.png" },
-      { id: 2, name: "Bajaj", logo: "/bajaj.png" },
-      { id: 3, name: "Hero", logo: "/hero.png" },
-      { id: 4, name: "TVS", logo: "/tvs.png" },
+      { id: 1, name: "Honda", logo: "/logos/honda-m.png" },
+      { id: 2, name: "Bajaj", logo: "/logos/bajaj.png" },
+      { id: 3, name: "Hero", logo: "/logos/hero.png" },
+      { id: 4, name: "TVS", logo: "/logos/tvs.png" },
     ],
     Scooters: [
-      { id: 1, name: "Hero", logo: "/hero.png" },
-      { id: 2, name: "Ather", logo: "/ather.png" },
+      { id: 1, name: "Hero", logo: "/logos/hero.png" },
+      { id: 2, name: "Ather", logo: "/logos/ather.png" },
     ],
     EVs: [
       { id: 1, name: "Tata", logo: "/logos/tata.png" },
-      { id: 2, name: "BYD", logo: "/Byd.png" },
-      { id: 3, name: "Ather", logo: "/ather.png" },
+      { id: 2, name: "BYD", logo: "/logos/byd.png" },
+      { id: 3, name: "Ather", logo: "/logos/ather.png" },
     ],
   }
+
 
   const brands = brandsByCategory[selectedCategory] || []
 
