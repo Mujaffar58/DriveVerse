@@ -14,7 +14,7 @@ const brandsByCategory: Record<string, Brand[]> = {
     { id: 1, name: "Maruti", logo: "/logos/marutisuzuki.png" },
     { id: 2, name: "Tata", logo: "/logos/tata.png" },
     { id: 3, name: "Kia", logo: "/logos/kia.png" },
-    { id: 4, name: "Hyundai", logo: "/logos/HYUNDAI.png" },
+    { id: 4, name: "Hyundai", logo: "/logos/hyundai.png" },
     { id: 5, name: "Honda", logo: "/logos/honda.png" },
     { id: 6, name: "MG", logo: "/logos/mg.png" },
   ],
@@ -22,16 +22,16 @@ const brandsByCategory: Record<string, Brand[]> = {
     { id: 1, name: "Honda", logo: "/logos/honda-m.png" },
     { id: 2, name: "Bajaj", logo: "/logos/bajaj.png" },
     { id: 3, name: "Hero", logo: "/logos/hero.png" },
-    { id: 4, name: "TVS", logo: "/logos/tvs.jpg" },
+    { id: 4, name: "TVS", logo: "/logos/tvs.png" },
   ],
   Scooters: [
     { id: 1, name: "Hero", logo: "/logos/hero.png" },
-    { id: 2, name: "Ather", logo: "/logos/ather-latest.jpg" },
+    { id: 2, name: "Ather", logo: "/logos/ather.png" },
   ],
   EVs: [
     { id: 1, name: "Tata", logo: "/logos/tata.png" },
-    { id: 2, name: "BYD", logo: "/logos/byd-latest.jpg" },
-    { id: 3, name: "Ather", logo: "/logos/ather-latest.jpg" },
+    { id: 2, name: "BYD", logo: "/logos/byd.png" },
+    { id: 3, name: "Ather", logo: "/logos/ather.png" },
   ],
 }
 
@@ -173,4 +173,5 @@ export default function BrandsPage() {
     </div>
   )
 }
+
 
